@@ -16,7 +16,7 @@ app.use(cors());
 app.use('/api', router)
 app.use('/', (req, res) => {
     res.json({
-        author: "MastayY",
+        author: "ZeeTzy",
         routes: {
             latestAnime: "/latest",
             popularAnime: "/popular",
